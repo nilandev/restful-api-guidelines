@@ -2,7 +2,7 @@
 
 Checklist of the most important security countermeasures when designing, testing, and releasing your API.
 
-------------------------------------------------------------------------------
+
 ## Authentication
 - Don't use `Basic Auth` Use standard authentication (e.g. JWT, OAuth).
 - Don't reinvent the wheel in `Authentication`, `token generating`, `password storing` use the standards.
