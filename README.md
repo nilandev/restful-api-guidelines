@@ -1,8 +1,6 @@
 # RESTful API Design Best Practices
 
-REST (Representational State Transfer) is a software architectural style that has become the de-facto standard for building API-driven applications. 
-
-Some of the key characteristics of RESTful API's include:
+REST (Representational State Transfer) is a software architectural style that has become the de-facto standard for building API-driven applications. Some of the key characteristics of RESTful API's include:
 
 * Client-server architecture: REST APIs are typically designed using a client-server architecture, where the client is responsible for making requests to the server and the server is responsible for responding to those requests.
 * Statelessness: REST APIs are stateless, meaning that each request is independent of any other request. This makes REST APIs easier to scale and more resilient to failures.
@@ -10,10 +8,15 @@ Some of the key characteristics of RESTful API's include:
 * Layered system: REST APIs are typically designed as a layered system, where each layer is responsible for a specific task. This makes REST APIs easier to develop and maintain.
 * Uniform interface: REST APIs use a uniform interface, which means that they use a consistent set of HTTP methods and URIs to perform different operations. This makes REST APIs easier to learn and use.
 
-
-## :key: API Design Best Practices
-TBU.
-
+## 🥇 API Design Best Practices
+* Use HTTP Methods Properly.
+* Use Proper HTTP Status Codes
+* Consistent design and using appropriate resource schema
+* Implement HATEOAS
+* API Versioning
+* Pagination, Filtering and Searching
+* Standard Error handling practices
+* Documentation
 
 ## :key: API Security Guidelines
 Checklist of the most important security countermeasures when designing, testing, and releasing your API.
@@ -66,7 +69,5 @@ Checklist of the most important security countermeasures when designing, testing
 - Don't return sensitive data like `credentials`, `Passwords`, or `security tokens`.
 - Return the proper status code according to the operation completed. (e.g. `200 OK` , `400 Bad Request` , `401 Unauthorized`, `405 Method Not Allowed` ... etc).
 
-------------------------------------------------------------------------------
-
-# Contribution
+## Contribution
 Feel free to contribute, :octocat:	fork -> edit -> submit pull request.
